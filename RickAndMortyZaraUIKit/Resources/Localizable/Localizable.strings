@@ -1,0 +1,706 @@
+"x" = "es";
+
+
+// 
+
+
+
+
+// Login
+
+
+"login_welcome_title_morning" = "Bonjour";
+"login_welcome_title_afternoon" = "Bon après-midi";
+"login_welcome_title_night" = "Bonsoir";
+"login_user_placeholder" = "Nom d'utilisateur";
+"login_welcome" = "Bonjour,";
+"login_different_user" = "Vous n'êtes pas %1$@?";
+"login_change_user" = "Changer d'utilisateur";
+"login_password_placeholder" = "Mot de passe";
+"login_remember_user" = "Se souvenir de moi";
+"login_enter_button" = "Se connecter";
+"login_forgot_credentials" = "Mot de passe oublié?";
+"login_become_client" = "Devenir client";
+"login_access_faceid" = "Accès avec Face ID";
+"login_password_expired" = "Mot de passe expiré";
+"NSFaceIDUsageDescription" = "Pour accéder aux données sécurisées de connexion";
+"login_biometrics_dialog_title" = "Permission requise";
+"login_biometrics_dialog_description" = "Voulez-vous autoriser \"Santander\" à utiliser les données biométriques ?";
+"login_biometrics_error_no_biometrics" = "Aucune fonction biométrique n'est disponible sur cet appareil.";
+"login_biometrics_error_unavailable" = "Les caractéristiques biométriques ne sont actuellement pas disponibles.";
+"login_forgot_credentials_url" = "https://secure.santanderconsumerbank.be/mdib-santander/forgot-password/forgot-password";
+"login_become_client_url" = "https://www.santanderconsumerbank.be/fr/comptes-epargne";
+
+
+
+
+// Error
+
+
+"error_generic" = "Une erreur technique est survenue. Si le problème persiste, merci de contacter le support.";
+"error_credentials" = "Le nom d'utilisateur ou le mot de passe sont incorrects.";
+"error_dialog_generic_title" = "Une erreur s'est produite";
+"error_not_browser" = "Il n'y a pas d'application de navigateur";
+
+
+
+// No Validated User
+
+
+"validate_title_one" = "Désolé, il vous manque certaines étapes de validation de l'utilisateur.";
+"validate_title_two" = "Veuillez passer en revue les étapes que vous devez suivre.";
+"validate_title_card" = "Votre carte d'identité";
+"validate_title_signature" = "Votre signature";
+"validate_title_transfer" = "Votre premier transfert";
+"validate_description_card" = "Envoyez-nous une copie (recto-verso) de votre pièce d'identité pour utiliser votre identification biometrique.";
+"validate_description_signature" = "Envoyez-nous les documents d'ouverture dûment signés.";
+"validate_description_transfer" = "Effectuez un premier virement sur votre nouveau compte d'épargne.";
+"validate_title_one_plus_two" = "Désolé, il vous manque certaines étapes de validation utilisateur. Veuillez passer en revue les étapes à suivre.";
+
+
+
+
+// Operate
+
+
+"operate_title" = "Opérations";
+"operate_subtitle" = "Mes raccourcis";
+"operate_description" = "Effectuez un nouveau virement et retrouvez votre situation financière facilement";
+"operate_make_transfer_title" = "Effectuer un virement";
+"operate_make_transfer_description" = "Vous souhaitez effectuer un nouveau virement ?";
+"operate_annual_report_title" = "Rapport annuel";
+"operate_annual_report_description" = "Téléchargez votre rapport annuel";
+"operate_statement_title" = "Extrait de compte";
+"operate_statement_description" = "Téléchargez le récapitulatif de vos transactions sur une période";
+"operate_title_validate_user_fail" = "Opérer";
+
+
+
+// Personal Area
+
+
+"personal_area_title" = "Mon Profil";
+"personal_area_subtitle" = "Nom, téléphone, email, adresse.";
+"personal_area_logout" = "Se déconnecter";
+"personal_area_profile_id_client_label" = "Votre numéro client";
+"personal_area_btn_scan_id_label" = "Numérisez votre carte d'identité";
+"personal_area_btn_telephone_label" = "Téléphone";
+"personal_area_btn_email_label" = "E-mail";
+"personal_area_btn_address_label" = "Adresse";
+"personal_area_btn_drop_out_label" = "Clôturer un compte";
+"personal_area_scan_id_title" = "Numérisez votre carte d'identité";
+"personal_area_scan_id_front_title" = "Numérisez le recto de la pièce d'identité :";
+"personal_area_scan_id_front_description" = "Positionnez le recto de votre pièce d'identité dans le cadre. Utilisez une zone bien éclairée et un fond sombre.";
+"personal_area_scan_id_back_title" = "Numérisez le verso de la pièce d'identité :";
+"personal_area_scan_id_back_description" = "Positionnez le verso de votre pièce d'identité dans le cadre. Utilisez une zone bien éclairée et un fond sombre.";
+"personal_area_scan_id_btn_take_pic" = "Prendre une photo";
+"personal_area_scan_id_information_dialog_title" = "Informations";
+"personal_area_scan_id_information_dialog_description" = "Voulez-vous envoyer ces images?";
+"personal_area_scan_id_information_dialog_btn_primary" = "Confirmer";
+"personal_area_continue_button_title" = "Envoyer";
+"personal_area_drop_out_url" = "https://www.santanderconsumerbank.be/sites/default/files/2022-05/formulaire-de-cloture-fr-corrected.pdf";
+"personal_area_scan_id_dialog_confirmation_description" = "Voulez-vous confirmer l'opération?";
+"personal_area_mail_body" = "Envoi d'images";
+"personal_area_btn_frop_out_label" = "Retour";
+"personal_area_scan_id_btn_continue" = "Envoyer";
+
+
+
+// TabBar
+
+
+"tab_home_title" = "Accueil";
+"tab_offer_title" = "Nos produits";
+"tab_operate_title" = "Operations";
+"tab_settings_title" = "Paramétres";
+
+
+
+// Dashboard
+
+
+"dashboard_greeting" = "Mes comptes";
+"dashboard_open_new_account" = "Ouvrir un compte";
+"dashboard_open_new_term_deposit" = "Ouvrir un dépôt à terme";
+"dashboard_accounts" = "Comptes d'épargne";
+"dashboard_term_deposits" = "Dépôts à terme";
+"dashboard_total_balance" = "Solde total";
+"dashboard_total_deposited" = "Total des dépôts à terme";
+"dashboard_total_accounts" = "Total des comptes d'épargne";
+"dashboard_interest_paid" = "Intérêts payés";
+"dashboard_interest_info" = "(*) Intérêts payés depuis l’ouverture du contrat";
+"dashboard_account_title" = "Comptes d'épargne";
+"dashboard_deposit_title" = "Dépôts à terme";
+"dashboard_global_position_title" = "Mes comptes";
+"dashboard_account_counting" = "%1$d Comptes épargne";
+"dashboard_deposit_counting" = "%1$d Dépôts à terme";
+"dashboard_total_balance_title" = "Solde total";
+"dashboard_total_balance_deposit_title" = "Total des dépôts à terme";
+"dashboard_total_balance_accounts_title" = "Total des comptes d'épargne";
+
+
+
+// Deposits
+
+
+"deposits_title" = "Comptes d'épargne";
+"deposits_interest_info" = "(*) intérêts payés depuis l’ouverture du contrat";
+"deposits_total_balance" = "Solde";
+"deposits_interest_paid" = "Intérêts payés";
+"deposits_transfer" = "Virement";
+"deposits_simulator" = "Simulateur";
+"deposits_pdf" = "PDF";
+"deposits_filter" = "Filtres";
+"deposits_transactions" = "Transactions(%1$d)";
+"deposits_no_transactions" = "Aucune transaction disponible";
+"deposit_interest_label" = "Intérêt: %.2f";
+"deposits_button_title" = "Confirmer";
+"deposits_INEXTARR" = "Annulation de la dernière estimation";
+"deposits_INRETSRC" = "Précompte mobilier";
+"deposits_INGLOBAL" = "Intérêt nouveau client";
+"deposits_INTFPFCR" = "Transfert (avec prime de fidélité)";
+"deposits_ININTCRE" = "Intérêts de base";
+"deposits_ODGENMVT" = "Virement";
+"deposits_PGCTSTDB" = "Retrait";
+"deposits_PGCTRJCR" = "Transfert non exécutable";
+"deposits_PGCTSTCR" = "Dépot";
+"deposits_INTFPFDB" = "Transfert (avec prime de fidélité)";
+"deposits_ININTCOC" = "Correction d'intêret";
+"deposits_INPRIFID" = "Prime de fidélité";
+"deposits_BNTRFCPT" = "Virement entre comptes";
+"deposits_CDINRTIC" = "Correction des intérêts de retard (not applicable )";
+"deposits_TAXRGU" = "Régularisation fiscale";
+"deposits_MMEMPLIQ" = "Emprunt de règlement";
+"deposits_MMLIQUTD" = "Règlement d'un dépôt à terme";
+"deposits_MMSTARTD" = "Ouverture d'un dépôt à terme";
+"deposits_MMTDFRAN" = "Coût de l'annulation du dépôt à terme";
+"deposits_MMTDPRAN" = "Annulation des régularisations des dépôts à terme";
+"deposits_MMTDREMB" = "Remboursement d'un dépôt à terme";
+"deposits_ININTPRO" = "Intérêt nouveau client";
+
+
+
+// Deposit Detail
+
+
+"deposit_detail_title" = "Détail du dépôt";
+"deposit_detail_reference" = "Référence de dépôt";
+"deposit_detail_acount" = "Numéro de compte";
+"deposit_detail_begin_date" = "Date de début";
+"deposit_detail_end_date" = "Date de fin";
+"deposit_detail_amount" = "Montant";
+"deposit_detail_interest" = "Type d'intérêt";
+"deposit_detail_interest_title" = "Intérêt";
+"deposit_detail_total_interest_paid" = "Total des intérêts payés à la fin du contrat";
+"deposit_detail_info_text" = "Les intérêts sont payés annuelement directement sur votre compte d'épargne";
+
+
+
+// Deposit Creation
+
+
+"deposit_creation_title" = "Créer un dépôt à terme";
+"deposit_creation_source_account_label" = "Compte source";
+"deposit_creation_account_hint" = "Compte";
+"deposit_creation_select_account_label" = "Sélectionnez un compte";
+"deposit_creation_duration_label" = "Dureé";
+"deposit_creation_duration_hint" = "Dureé";
+"deposit_creation_select_duration_label" = "Sélectionnez une durée";
+"deposit_creation_amount_label" = "Montant";
+"deposit_creation_amount_hint" = "Montant";
+"deposit_creation_account_title" = "Numéro de compte";
+"deposit_creation_interest_title" = "Intérêt";
+"deposit_creation_start_date_title" = "Date de début du contrat";
+"deposit_creation_end_date_title" = "Date de fin du contrat";
+"deposit_creation_total_interest_paid" = "Total des intérêts payés à la fin du contrat";
+"deposit_creation_terms_and_conditions_text" = "Veuillez lire les informations précontractuelles d'un DàT (cliquez sur le lien)";
+"deposit_creation_terms_and_conditions_pdf_link" = "https://www.santanderconsumerbank.be//sites/default/files/2023-03/informations-precontractuelles-dat_scb.pdf";
+"deposit_creation_prices_and_products_text" = "Veuillez consulter la liste des prix et des prestations. (cliquer à gauche)";
+"deposit_creation_price_and_rates_pdf_link" = "";
+"deposit_creation_error_not_enough_balance" = "Le solde disponible sur le compte est insuffisant.";
+"deposit_creation_error_not_enough_amount" = "Le montant ne peut pas être inférieur à 1.000€";
+"deposit_creation_continue" = "Continuer";
+"deposit_creation_success_label" = "Opération réussie";
+"deposit_creation_success_dialog_message" = "Félicitations, votre dépôt à terme est ouvert";
+"deposit_creation_info_summary_title" = "Détails du dépôt";
+"deposit_creation_exceed_number_deposits" = "Vous avez atteint le nombre maximum de dépôts sur ce compte";
+"deposit_periodicity_one_year" = "1 An";
+"deposit_periodicity_two_years" = "2 Ans";
+"deposit_periodicity_three_years" = "3 Ans";
+"deposit_periodicity_four_years" = "4 Ans";
+"deposit_contract_periodicity_one_year_code" = "00";
+"deposit_contract_periodicity_more_years_code" = "12";
+
+
+
+// PDF
+
+
+"pdf_close" = "Fermer";
+"pdf_no_launch_viewer" = "Aucune application ne peut effectuer cette action. Vous devez avoir un lecteur PDF";
+"pdf_chooser_app_title" = "Ouvrir";
+
+
+
+// Filters
+
+
+"filters_title" = "Filtres";
+"filters_date_range" = "Période";
+"filters_transaction_type" = "Type de transaction";
+"filters_date_from" = "À partir de";
+"filters_date_to" = "À";
+"filters_transaction" = "Transaction";
+"filters_apply_btn" = "Appliquer";
+"filters_remove_filters" = "Supprimer les filtres";
+"filters_all_transactions" = "Selectionnez votre transaction";
+"filters_debit" = "Retrait";
+"filters_credit" = "Dépôt";
+"filters_fidelity_prime_interest" = "Prime de fidélité";
+"filters_base_interest" = "Intérêts de base";
+"filters_promotional_interest" = "Intérêt nouveaux client";
+
+
+
+// New account
+
+
+"newaccount_title" = "Ouvrir un compte";
+"newaccount_incumbent" = "Titulaire";
+"newaccount_product_type" = "Type de compte :";
+"newaccount_select_user" = "Titulaire";
+"newaccount_product_label" = "Compte";
+"newaccount_select" = "Sélectionnez";
+"newaccount_same_fiscal" = "Ma situation fiscale n'a pas changé";
+"newaccount_change_fiscal" = "Ma situation fiscale a changé";
+"newaccount_change_fiscal_info" = "Veuillez remplir le document <a href=https://www.santanderconsumerbank.be/sites/default/files/2023-02/formulaire-interactif-dauto-certification-fiscale_230301_0.pdf>\"auto-certification fiscale pour les particuliers\" </a>et le renvoyer à notre service client.";
+"newaccount_change_fiscal_url" = "https://www.santanderconsumerbank.be/sites/default/files/2023-02/formulaire-interactif-dauto-certification-fiscale_230301_0.pdf";
+"newaccount_continue" = "Continuer";
+"newaccount_created_dialog_title" = "Félicitations";
+"newaccount_created_dialog_message" = "Votre nouveau compte a été créé avec succès.";
+"newaccount_select_user_label" = "Titulaire";
+"newaccount_terms_and_conditions_text" = "Veuillez lire les conditions générales (cliquez sur le lien)";
+"newaccount_terms_and_conditions_pdf_link" = "https://www.santanderconsumerbank.be//sites/default/files/2023-03/informations-precontractuelles-dat_scb.pdf";
+"newaccount_prices_and_rates_text" = "Veuillez consulter la liste des prix et des prestations. (cliquer à gauche)";
+"newaccount_price_and_rates_pdf_link" = "";
+
+
+
+// FAQ
+
+
+"faq_frequently_asked_questions" = "Questions fréquemment posées";
+"faq_call_to_our_call_center" = "Appelez notre service client";
+"faq_email_to_our_call_center" = "Envoyez un e-mail à notre service client";
+"faq_title_description" = "Besoin d'aide? Notre service client est à votre disposition.";
+"faq_title" = "Support et aide";
+"faq_number" = "02 588 96 25";
+"faq_schedule" = "Du lundi au vendredi de 09h00 à 18h00";
+"faq_url_webview" = "https://www.santanderconsumerbank.be/fr/app-faqs";
+"faq_email" = "info@santanderconsumerbank.be";
+
+
+
+// PopUp
+
+
+"dialog_warning_title" = "Informations";
+"dialog_exit_subtitle" = "Voulez-vous fermer la session ?";
+"dialog_error_subtitle" = "Une erreur est survenue, veuillez réessayer plus tard";
+"dialog_expired_subtitle" = "Pour des raisons d'inactivité, nous avons fermé la session pour votre sécurité.";
+"dialog_validotp_subtitle" = "Votre nouveau compte a été créé avec succès";
+"dialog_invalidotp_subtitle" = "Veuillez saisir à nouveau le code du SMS de confirmation";
+"dialog_passwordExpired_subtitle" = "Votre mot de passe a expiré. Vous devez le changer.";
+"dialog_warning_button_positive" = "Ok";
+"dialog_confirm_button" = "Accepter";
+"dialog_transfer_success_subtitle" = "Votre transfert a été envoyé avec succès. Votre paiement sera exécuté.";
+"dialog_marketing_consent_subtitle" = "Votre consentement marketing a été modifié avec succès.";
+
+
+
+// Tooltip
+
+
+"tooltip_account_title" = "Combien de comptes puis-je avoir ?";
+"tooltip_account_message" = "Vous pouvez ouvrir jusqu'à 6 comptes d'épargne et jusqu'à 12 dépôts par compte.";
+"tooltip_deposit_title" = "Combien de comptes puis-je avoir ?";
+"tooltip_deposit_message" = "Vous pouvez ouvrir jusqu'à 6 comptes d'épargne et jusqu'à 12 dépôts par compte.";
+
+
+
+// Labels
+
+
+"label_cancel" = "Annuler";
+"label_accept" = "Accepter";
+"label_continue" = "Continuer";
+"label_logout" = "Se déconnecter";
+"label_congratulations" = "Félicitations";
+"label_currency_eur" = "€";
+
+
+
+// SmsConfirmation
+
+
+"sms_title" = "Confirmation par SMS";
+"sms_subtitle" = "Pour terminer le processus, entrez le code que nous vous avons envoyé par SMS";
+"sms_resend_code" = "Renvoyer le code";
+"sms_not_received_question" = "Vous n'avez pas reçu le SMS ?";
+"sms_input_hint" = "Mot de passe";
+"sms_validate" = "Valider";
+"sms_error_dialog_title" = "Une erreur s'est produite";
+"sms_error_dialog_description" = "Veuillez saisir à nouveau le SMS de confirmation";
+"sms_incorrect_code" = "Code incorrect";
+"sms_validated_title" = "Félicitations";
+
+
+
+// Onboarding
+
+
+"onboarding_your_shortcuts" = "Mes raccourcis";
+"onboarding_source_account" = "Compte de référence";
+"onboarding_title_amount" = "Montant";
+"onboarding_title_communication" = "Communication";
+
+
+
+// Product details
+
+
+"product_details_title" = "Détails du compte";
+"product_details_iban" = "IBAN";
+"product_details_alias" = "Nom du compte";
+"product_details_type" = "Type de produit";
+"product_details_payDate" = "Prochaine date de paiement des intérêts";
+"product_details_refAccount" = "Compte de référence";
+"product_details_savingAccount" = "Compte d'épargne %1$@";
+"product_details_dateTitle" = "Date";
+"product_details_interestTitle" = "Intérêts payés";
+"product_details_fidelityPrime" = "Prime de fidélité";
+"product_details_baseInterest" = "Intérêts de base";
+"product_details_totalInterest" = "Total des intérêts payés";
+"product_details_total_base_interest" = "Intérêt de base total";
+"product_details_promotional_interest" = "Intérêt nouveaux client";
+"product_details_total_fidelity_interest" = "Montant total de la prime de fidélité";
+"product_details_productInformation" = "Information du compte";
+"product_details_interestPaid" = "Intérêts payés";
+"product_details_filters" = "Filtres";
+"product_details_pdf" = "PDF";
+"product_details_iban_copied" = "IBAN copié";
+
+
+
+// Simulator
+
+
+"simulator_title" = "Simulateur";
+"simulator_transfer_title" = "Simuler un virement";
+"simulator_interest_settlement_title" = "Simuler un calcul d’intérêt";
+"simulator_transfer_description" = "Calculez combien de prime de fidélité vous perdriez en effectuant un retrait";
+"simulator_interest_settlement_description" = "calculez le montant des intérêts que vous recevrez à une date donnée";
+"simulator_see_my_simulation" = "Voir la simulation";
+"simulator_indicate_date_operation" = "Indiquez le jour de l'opération";
+"simulator_settlement_today" = "Aujourd'hui";
+"simulator_settlement_next_interest_payment" = "Au prochain paiement d'intérêts";
+"simulator_select_account" = "Sélectionnez un compte";
+"simulator_amount_title" = "Indiquez le montant que vous souhaitez transférer";
+"simulator_amount" = "Montant";
+"simulator_max_amount" = "(Maximum de %1$@ €)";
+"simulator_default_amount" = "00.00 €";
+"simulator_filter_by_date_title" = "Filtrer par date";
+"simulator_filter_by_date_input_label" = "Filtrer par date";
+"simulator_selector_default_text" = "Pour la simulation";
+"simulator_try_our_simulator" = "Essayez nos différents simulateurs";
+"simulator_total_simulation" = "Total";
+
+
+
+// Change email
+
+
+"change_email_title" = "Adresse E-mail";
+"change_email_label" = "Adresse E-mail";
+"change_email_current_email_title" = "Votre adresse E-mail actuelle :";
+"change_email_confirmation_question" = "Voulez-vous changer votre adresse E-mail ?";
+"change_email_input_new_email_title" = "Votre nouvelle adresse E-mail :";
+"change_email_input_new_email_hint" = "Votre nouvelle adresse E-mail :";
+"change_email_confirm_new_email_title" = "Confirmez votre adresse E-mail :";
+"change_email_confirm_new_email_hint" = "Confirmez votre adresse E-mail :";
+"change_email_confirm_error_not_equal" = "Les adresses E-mails ne correspondent pas";
+"change_email_dialog_changed_title" = "Félicitations";
+"change_email_dialog_changed_description" = "Votre adresse E-mail a été modifiée avec succès.";
+"change_email_generic_error_not_valid" = "Adresse E-mail non valide";
+"change_email_error_invalid_field" = "Champ invalide";
+
+
+
+
+// Change address
+
+
+"change_address_title" = "Adresse";
+"change_address_label" = "Adresse :";
+"change_address_confirmation_question" = "Vous souhaitez changer d'adresse?";
+"change_address_street_label" = "Rue";
+"change_address_number_label" = "Numéro";
+"change_address_flat_label" = "Boite";
+"change_address_postal_code_label" = "Code postal";
+"change_address_city_label" = "Ville";
+"change_address_state_label" = "État";
+"change_address_country_label" = "Pays";
+"change_address_choose_country" = "Choisisez votre pays";
+"change_address_dialog_changed_title" = "Félicitations";
+"change_address_dialog_changed_description" = "Votre adresse a été modifié avec succès.";
+"change_address_BE_name" = "Belgique";
+"change_address_FR_name" = "France";
+"change_address_DE_name" = "Allemagne";
+"change_address_b2c_info_message" = "Vous pouvez modifier votre adresse directement dans votre espace sécurisé 'Mes comptes'.";
+
+
+
+// Our offer
+
+
+"our_offer_title" = "Nos produits";
+"our_offer_products_link" = "https://www.santanderconsumerbank.be/fr/app-product-block";
+
+
+
+// Legal webview
+
+
+"legal_title" = "Ouvrir un compte";
+"legal_accept" = "Accepter";
+
+
+
+// Make a transfer
+
+
+"make_transfer_select_account_label" = "Sélectionnez un compte";
+"make_transfer_source_account_label" = "Compte à débiter:";
+"make_transfer_destination_account_label" = "Compte à créditer :";
+"make_transfer_amount_label" = "Montant :";
+"make_transfer_amount_hint" = "Montant";
+"make_transfer_communication_label" = "Communication";
+"make_transfer_communication_placeholder" = "Emplacement";
+"make_transfer_account_floating_label" = "Compte";
+"make_transfer_error_not_enough_balance" = "Le solde disponible sur le compte est insuffisant.";
+"make_transfer_error_not_enough_amount" = "Merci de fournir un montant positif";
+"make_transfer_error_not_same_account" = "Le compte source et le compte de destination ne peuvent pas être identiques";
+"make_new_transfer" = "Effectuez un nouveau virement, retrouvez votre transaction financière";
+"make_transfer_success_dialog_message" = "Votre transfert a été envoyé avec succès.";
+"make_transfer_communication_label_min_max_characters" = "maximum 300 caractères";
+"make_transfer_select_user_label" = "Titulaire";
+"make_transfer_select_user_label_placeholder" = "Titulaire";
+
+
+
+// Annual report
+
+
+"annual_report_title" = "Rapport annuel";
+"annual_report_title_sesion_info_label" = "Titulaire";
+"annual_report_title_year_label" = "Année";
+"annual_report_title_year_floating_label" = "Date";
+"annual_report_title_year_placeholder" = "Sélectionnez une année";
+"annual_report_btn_view_pdf" = "Afficher le PDF";
+"annual_report_no_results" = "Il n'y a pas de résultat";
+"annual_report_title_user_label" = "Titulaire";
+"annual_report_title_user_placeholder" = "Titulaire";
+
+
+
+// Statement
+
+
+"statement_title" = "Extrait de compte";
+"statement_title_source_account" = "Compte";
+"statement_title_account_floating_label" = "Compte";
+"statement_title_select_account_label" = "Sélectionnez un compte";
+"statement_title_date_range_label" = "Selectionnez la période";
+"statement_title_date_from_floating_label" = "De";
+"statement_title_date_to_floating_label" = "À";
+"statement_title_btn_view_pdf" = "Afficher le PDF";
+
+
+
+
+// Settings
+
+
+"settings_title" = "Réglages";
+"settings_description" = "Personnalisez votre application";
+"settings_access_methods_btn" = "Méthodes d'accès";
+"settings_marketing_consent_btn" = "Consentement marketing";
+"settings_data_privacy_btn" = "Confidentialité des données";
+"settings_data_privacy_sublabel" = "Consulter notre politique de confidentialité des données";
+"settings_data_privacy_url" = "https://www.santanderconsumerbank.be/sites/default/files/2021-06/politique_de_protection_de_la_vie_privee.pdf";
+
+
+
+
+// Marketing consent
+
+
+"marketing_consent_title" = "Consentement marketing";
+"marketing_consent_description" = "Ici, vous pouvez configurer votre consentement marketing.";
+"marketing_consent_btn_label" = "Consentement marketing";
+"marketing_consent_btn_sublabel" = "Autoriser la réception de campagnes marketing";
+"marketing_consent_dialog_changed_description" = "Votre consentement marketing a été modifié avec succès.";
+
+
+
+// Access methods
+
+
+"access_methods_title" = "Méthodes d'accès";
+"access_methods_description" = "Ici, vous pouvez configurer toutes les options de sécurité.";
+"access_methods_btn_username" = "Nom d'utilisateur";
+"access_methods_btn_password" = "Mot de passe";
+"access_methods_btn_security_question" = "Question de sécurité";
+"access_methods_btn_biometrics" = "Identification biométrique";
+"access_methods_btn_change_text" = "Changer";
+
+
+
+
+// Change username
+
+
+"change_username_title" = "Nom d'utilisateur";
+"change_username_confirmation_question" = "Voulez-vous changer votre nom d'utilisateur ?";
+"change_username_label_current_username" = "Nom d'utilisateur actuel :";
+"change_username_hint_current_username" = "Nom d'utilisateur";
+"change_username_label_new_username" = "Votre nouveau nom d'utilisateur :";
+"change_username_hint_new_username" = "Nouveau nom d'utilisateur";
+"change_username_error_length" = "Le nom d'utilisateur doit contenir au moins 8 caractères";
+"change_username_dialog_changed_description" = "Votre nom d'utilisateur a été modifié avec succès.";
+
+
+
+
+// Change password
+
+
+"change_password_title" = "Mot de passe";
+"change_password_confirmation_question" = "Souhaitez-vous modifier votre mot de passe?";
+"change_password_rules_title" = "Votre nouveau mot de passe doit respecter les conditions suivantes";
+"change_password_rule_one_digit" = "Au moins 1 chiffre";
+"change_password_rule_at_least_five_letters" = "Au moins 5 caractères alphabétiques différents";
+"change_password_rule_capital_letter" = "Au moins 1 lettre majuscule";
+"change_password_rule_special_character" = "Au moins 1 caractère spécial";
+"change_password_rule_special_character_helper_txt" = "Ces caractères spéciaux ne sont pas autorisés: []^/\|";
+"change_password_rule_length" = "De 8 à 16 caractères";
+"change_password_new_pwd_label" = "Nouveau mot de passe :";
+"change_password_new_pwd_hint" = "Mot de passe";
+"change_password_confirm_pwd_label" = "Confirmation du nouveau mot de passe :";
+"change_password_confirm_pwd_hint" = "Mot de passe";
+"change_password_fiel_required" = "Ce champ est obligatoire";
+"change_password_dialog_changed_description" = "Votre mot de passe a été modifié avec succès.";
+"change_password_passwords_not_matching" = "Les mots de passe ne correspondent pas";
+
+
+
+
+// Security question
+
+
+"security_question_title" = "Question de sécurité";
+"security_question_description" = "Veuillez répondre à votre question de sécurité";
+"security_question_question_label" = "Question :";
+"security_question_question_hint" = "Question de sécurité";
+"security_question_response_label" = "Réponse :";
+"security_question_button" = "Continuer";
+"security_question_question_01" = "Le nom de votre animal de compagnie?";
+"security_question_question_02" = "La marque de votre première voiture?";
+"security_question_question_03" = "Le nom de jeune fille de votre mère?";
+"security_question_question_06" = "Votre couleur préférée?";
+"security_question_question_07" = "Votre nombre préféré?";
+"security_question_dialog_changed_title" = "Félicitations";
+"security_question_dialog_changed_description" = "Votre question de sécurité a été modifiée avec succès.";
+
+
+
+
+// Change account alias
+
+
+"change_account_alias_title" = "Compte";
+"change_account_alias_current_alias_title" = "Nom du compte actuel :";
+"change_account_alias_current_alias_label" = "Nom";
+"change_account_alias_new_alias_title" = "Écrivez le nouveau nom de compte :";
+"change_account_alias_new_alias_label" = "Nouveau nom";
+"change_account_alias_changed_description" = "Le nom de votre compte a été modifié avec succès";
+
+
+
+
+// Change reference account
+
+
+"change_reference_account_title" = "Compte de référence";
+"change_reference_account_current_title" = "Votre compte de référence actuel :";
+"change_reference_account_current_label" = "Compte de référence";
+"change_reference_account_new_title" = "Écrivez votre nouveau compte de référence :";
+"change_reference_account_new_label" = "Nouveau compte de référence";
+"change_reference_account_changed_description" = "Votre compte de référence a été modifié avec succès";
+"change_reference_account_invalid_IBAN_error" = "Veuillez fournir un compte IBAN correct";
+
+
+
+
+// Document
+
+
+"document_title" = "Document";
+
+
+
+// Loading
+
+
+"loading_title" = "Chargement";
+"loading_message" = "Un instant s'il vous plaît ...";
+
+
+
+// Biometrics
+
+
+"access_with_biometrics" = "Accès avec biométrie";
+
+
+
+
+// File menu
+
+
+"menu_file_share" = "Partager";
+"menu_file_download" = "Télécharger";
+
+
+
+// App menu
+
+
+"menu_app_profile" = "Profil";
+"menu_app_help" = "Aide et service";
+
+
+
+// Email subjects
+
+
+"email_subject_support" = "Assistance - %1$@";
+"email_subject_scan_id" = "ID de numérisation - %1$@";
+
+
+
+
+// Browser
+
+
+"select_browser" = "Sélectionnez le navigateur :";

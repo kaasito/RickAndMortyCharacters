@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CharacterDetailView">
+            <connections>
+                <outlet property="circleStatus" destination="Xut-Fp-EtX" id="dft-dZ-2aX"/>
+                <outlet property="ivCharacter" destination="kAL-yE-01Y" id="nS7-Bb-1P8"/>
+                <outlet property="lbCharacterName" destination="tXI-fL-mwo" id="RZB-aV-XYf"/>
+                <outlet property="lbStatus" destination="EZc-Bx-BDr" id="Hy1-sq-UgT"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="vwGender" destination="0Td-f0-oeW" id="XHq-W8-Paa"/>
+                <outlet property="vwLocation" destination="HkG-6J-zOd" id="aM8-dd-98m"/>
+                <outlet property="vwOrigin" destination="bci-4X-Tfw" id="smj-L1-LQe"/>
+                <outlet property="vwSpecies" destination="Jkz-dL-CL2" id="wpD-AL-O8B"/>
+                <outlet property="vwType" destination="0EW-q4-PdV" id="nae-LP-K3T"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="CharacterDetailView" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kAL-yE-01Y">
+                    <rect key="frame" x="121.66666666666669" y="75" width="150" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="bpX-iK-MkD"/>
+                        <constraint firstAttribute="width" constant="150" id="mp9-Pb-54H"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXI-fL-mwo">
+                    <rect key="frame" x="8" y="241" width="377" height="36"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xut-Fp-EtX">
+                    <rect key="frame" x="140.33333333333334" y="293" width="20" height="20"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="ZzV-3v-UPa"/>
+                        <constraint firstAttribute="height" constant="20" id="zTK-Wf-caE"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZc-Bx-BDr">
+                    <rect key="frame" x="168.33333333333334" y="288.66666666666669" width="56.666666666666657" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jkz-dL-CL2" customClass="DetailRowView" customModule="RickAndMortyZaraUIKit" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="333.66666666666669" width="393" height="56"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="DHe-uB-xqR"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0EW-q4-PdV" customClass="DetailRowView" customModule="RickAndMortyZaraUIKit" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="397.66666666666669" width="393" height="56"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="LA8-Lb-FqC"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Td-f0-oeW" customClass="DetailRowView" customModule="RickAndMortyZaraUIKit" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="461.66666666666669" width="393" height="56.000000000000057"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="DHT-7H-9dw"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bci-4X-Tfw" customClass="DetailRowView" customModule="RickAndMortyZaraUIKit" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="525.66666666666663" width="393" height="56"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="8gh-qo-CO3"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HkG-6J-zOd" customClass="DetailRowView" customModule="RickAndMortyZaraUIKit" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="589.66666666666663" width="393" height="56"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="qyX-gr-Hj1"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <accessibility key="accessibilityConfiguration" identifier="CharacterDetailView"/>
+            <constraints>
+                <constraint firstItem="Jkz-dL-CL2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="0ND-mc-cdP"/>
+                <constraint firstItem="Xut-Fp-EtX" firstAttribute="top" secondItem="tXI-fL-mwo" secondAttribute="bottom" constant="16" id="2bF-2k-ZK2"/>
+                <constraint firstAttribute="trailing" secondItem="0Td-f0-oeW" secondAttribute="trailing" id="4Ep-IF-McI"/>
+                <constraint firstItem="tXI-fL-mwo" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5mz-NN-Z89"/>
+                <constraint firstItem="tXI-fL-mwo" firstAttribute="top" secondItem="kAL-yE-01Y" secondAttribute="bottom" constant="16" id="7K9-74-93d"/>
+                <constraint firstItem="0Td-f0-oeW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="80L-Yr-Xgn"/>
+                <constraint firstItem="bci-4X-Tfw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="EDk-Xu-lCc"/>
+                <constraint firstItem="0EW-q4-PdV" firstAttribute="top" secondItem="Jkz-dL-CL2" secondAttribute="bottom" constant="8" id="FLb-g9-fIm"/>
+                <constraint firstItem="bci-4X-Tfw" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Kvu-UT-K92"/>
+                <constraint firstItem="HkG-6J-zOd" firstAttribute="top" secondItem="bci-4X-Tfw" secondAttribute="bottom" constant="8" id="LNy-BO-9tl"/>
+                <constraint firstItem="Jkz-dL-CL2" firstAttribute="top" secondItem="EZc-Bx-BDr" secondAttribute="bottom" constant="16" id="Pe9-4x-Dxh"/>
+                <constraint firstItem="bci-4X-Tfw" firstAttribute="top" secondItem="0Td-f0-oeW" secondAttribute="bottom" constant="8" id="TYE-mK-rJJ"/>
+                <constraint firstItem="tXI-fL-mwo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="Tco-mh-9nY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tXI-fL-mwo" secondAttribute="trailing" constant="8" id="ZIG-yb-FBs"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Jkz-dL-CL2" secondAttribute="trailing" id="ZQ5-np-fWj"/>
+                <constraint firstItem="0EW-q4-PdV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ZW3-9U-X68"/>
+                <constraint firstItem="HkG-6J-zOd" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="ao9-Ya-9Lh"/>
+                <constraint firstItem="kAL-yE-01Y" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="gCi-8X-D0g"/>
+                <constraint firstItem="EZc-Bx-BDr" firstAttribute="centerY" secondItem="Xut-Fp-EtX" secondAttribute="centerY" id="gEe-Cm-AQD"/>
+                <constraint firstItem="EZc-Bx-BDr" firstAttribute="leading" secondItem="Xut-Fp-EtX" secondAttribute="trailing" constant="8" id="jhQ-NF-0rN"/>
+                <constraint firstItem="0Td-f0-oeW" firstAttribute="top" secondItem="0EW-q4-PdV" secondAttribute="bottom" constant="8" id="nTK-xQ-3jd"/>
+                <constraint firstItem="0EW-q4-PdV" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="ohC-ah-qBg"/>
+                <constraint firstItem="HkG-6J-zOd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="pVN-IX-w8K"/>
+                <constraint firstItem="EZc-Bx-BDr" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="s5X-c2-P0V"/>
+                <constraint firstItem="kAL-yE-01Y" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="uhz-jo-8UH"/>
+                <constraint firstItem="kAL-yE-01Y" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="xgB-ej-id1"/>
+            </constraints>
+            <point key="canvasLocation" x="101.5267175572519" y="35.91549295774648"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

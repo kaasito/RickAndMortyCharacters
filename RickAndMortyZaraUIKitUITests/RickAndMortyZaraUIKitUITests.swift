@@ -9,33 +9,36 @@ import XCTest
 
 final class RickAndMortyZaraUIKitUITests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testCharacterListDecoratorType_WhenCreatedEmpty_TypeShouldBeHyphen() {
+        let characterDecorator = CharacterListDecorator(
+            characterName: "Rick Sanchez",
+            status: "Alive",
+            image: "https://rickandmortyapi.com/api/character/avatar/779.jpeg",
+            species: "Human",
+            type: "",
+            gender: "Male",
+            origin: "Birdperson's Consciousness",
+            location: "Birdperson's Consciousness")
 
-        // In UI tests it is usually best to stop immediately when a failure occurs.
-        continueAfterFailure = false
+        let isHyphenType = characterDecorator.isHyphenType()
 
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        XCTAssertFalse(isHyphenType, "The type var has hyphen")
     }
+}
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
 
-    func testExample() throws {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
-        app.launch()
+struct CharacterListDecorator {
+    let characterName: String
+    let status: String
+    let image: String
+    let species: String
+    let type: String
+    let gender: String
+    let origin, location: String
+}
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
+extension CharacterListDecorator {
+    func isHyphenType() -> Bool {
+        return type == "-"
     }
 }
